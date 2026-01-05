@@ -1,0 +1,28 @@
+/*.box::first-line{
+    background-color: red;
+}*/
+.boxes *{
+    border: 2px solid black;
+}
+p, [data-color="red"]{
+    color: red;
+}
+.box:nth-child(odd){
+    background-color: green;
+}
+.box:nth-last-child(3){
+    background-color: blue;
+}
+.box:nth-child(2)::before{
+    content: "Hey there";
+}
+.boxes::after{
+    content: "Bye dude";
+}
+.boxes::selection{
+    color: aqua;
+    background-color: black;
+}
+input::placeholder{
+    background-color: red;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            background-color: #0F0F0F;
+            color: white;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+        body{
+            margin-top: 10px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        .container .card{
+            display: flex;
+            margin: 0px 10px;
+            padding: 10px 0px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .container .card:hover, .container .card:hover  div, .container .card:hover h2{
+            background-color: #272727;
+        }
+        .container .card #videonumber{
+            margin: auto 15px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .container .card .thumbnail{
+            position: relative;
+        }
+        .container .card .thumbnail img{
+            width: 300px;
+            border-radius: 10px;
+        }
+        .container .card .thumbnail span{
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+            padding: 1px 4px;
+            background-color: rgba(0, 0, 0, 0.516);
+            border-radius: 3px;
+            font-size: 13.5px;
+            font-weight: bold;
+        }
+        .container .card .videodetails{
+            display: flex;
+            flex-direction: column;
+            margin: 0px 15px;
+            width: 100%;
+        }
+        .container .card .videodetails div{
+            margin: 15px 0px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div id="videonumber">
+                1
+            </div>
+            <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/VJgdOMXhEj0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDZxLEKYkoDne5yWW5S21A5YB42Cg" alt="Error">
+                            <span>31:10</span>
+            </div>
+            <div class="videodetails">
+                <h2>
+                    Introduction to Code with Harry || Sigma Web Development #2
+                </h2>
+                <div>CodeWithHarry • 727K views • 2 months ago</div>
+            </div>
+        </div>
+        <div class="card">
+            <div id="videonumber">
+                1
+            </div>
+            <div class="thumbnail">
+                            <img src="https://i.ytimg.com/vi/VJgdOMXhEj0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDZxLEKYkoDne5yWW5S21A5YB42Cg" alt="Error">
+                            <span>31:10</span>
+            </div>
+            <div class="videodetails">
+                <h2>
+                    Introduction to Code with Harry || Sigma Web Development #2
+                </h2>
+                <div>CodeWithHarry • 727K views • 2 months ago</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

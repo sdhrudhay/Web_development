@@ -1,0 +1,25 @@
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    text-transform: capitalize;
+    text-decoration: underline aqua dashed 3px;
+    text-indent: 45px;
+}
+.lorem{
+    text-overflow: clip;
+    word-break: break-all;
+    overflow: hidden;
+    border: 2px solid red;
+    width: 45px;
+}

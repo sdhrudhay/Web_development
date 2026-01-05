@@ -1,0 +1,27 @@
+.red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+div p{
+    background-color: brown;
+    color: blue;
+    margin: 0;
+    padding: 0;
+}
+a:visited{
+    color: yellow
+}
+a:link{
+    color: green;
+}
+a:active{
+    background-color: red;
+}
+a:hover{
+    background-color: red;
+}
+p:first-child{
+    background-color: aqua;
+}

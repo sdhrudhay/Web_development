@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Ocean",
+        "description": "OG",
+        "image": "album11.jpeg",
+        "song": "song9.mp3"
+    },
+    {
+        "title": "Trophies",
+        "description": "Bapa",
+        "image": "album12.jpeg",
+        "song": "song10.mp3"
+    },
+    {
+        "title": "Come back to my city",
+        "description": "Nun",
+        "image": "album13.jpeg",
+        "song": "song11.mp3"
+    },
+    {
+        "title": "That couldn't sweat it out",
+        "description": "Travis Scott",
+        "image": "album14.jpeg",
+        "song": "song12.mp3"
+    },
+    {
+        "title": "You know me",
+        "description": "Jennifer",
+        "image": "album15.jpeg",
+        "song": "song13.mp3"
+    },
+    {
+        "title": "Eenie Menie Minie Mo",
+        "description": "50 cent",
+        "image": "album16.jpeg",
+        "song": "song14.mp3"
+    }
+]

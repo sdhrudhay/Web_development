@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+.container{
+    background-color: red;
+    width: 50vw;
+    height: 40vh;
+}
+.box{
+    background-color: aqua;
+    width: 5vw;
+    height: 4vh;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+.translate{
+    transform: translateX(10vw) translateY(10vh);
+=======
+.container{
+    background-color: red;
+    width: 50vw;
+    height: 40vh;
+}
+.box{
+    background-color: aqua;
+    width: 5vw;
+    height: 4vh;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+.translate{
+    transform: translateX(10vw) translateY(10vh);
+>>>>>>> f89709e45460270f3ab3979d9b20d11fa75e1b49
+}

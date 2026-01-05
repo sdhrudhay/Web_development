@@ -1,0 +1,22 @@
+.container{
+    border: 2px solid yellow;
+    display: grid;
+    grid-template-columns: 120px 100px;
+    /*grid-template-columns: 1fr 2fr 1fr;*/
+    grid-template-rows: 100px 100px 100px;
+    justify-items: center;
+    align-items: center;
+}
+.item{
+    border: 2px solid red;
+    height: 55px;
+    width: 55px;
+}
+.item-4{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.item-1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}

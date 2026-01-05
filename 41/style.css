@@ -1,0 +1,78 @@
+@import url(https://db.onlinewebfonts.com/c/9d25ea5c587d0f9d470aa9a3634735ea?family=ETmoudles);
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo-navigation-container{
+    display: flex;
+    width: 80vw;
+    height: 15vh;
+    margin: auto;
+}
+.logos{
+    position: relative;
+    width: 13.3vw;
+        margin: auto;
+}
+.logos #ueimage{
+    width: 12vw;
+    height: 8vh;
+}
+.logos #beimage{
+    position: absolute;
+    width: 5vw;
+    height: 1.7vh;
+    top: 7vh;
+    left: 8.3vw;
+}
+.nav-button{
+    display: flex;
+    margin: 2vh 0 0 0;
+}
+nav{
+    margin: auto 8.2vw;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li::after{
+    content: "3";
+    font-family: "ETmoudles";
+    padding: 0 0.2vw;
+}
+nav ul li{
+    padding: 0 0.8vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#buynowbutton{
+    display: flex;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    border-radius: 0.2vw;
+    padding: 1vh 1.2vw;
+    box-sizing: border-box;
+    margin: auto 0 auto 1.8vw;
+}
+#english{
+    display: flex;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 0 0 1.2vw;
+}
+#english::before{
+    content: "";
+    font-size: 1.3em;
+    font-family: "ETmoudles";
+    padding: 0 0.4vw;
+}
+#search{
+    margin: auto 0 auto 1.6vw;
+}
+#search::after{
+    font-family: "ETmoudles";
+    content: "\55";
+}

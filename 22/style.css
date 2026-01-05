@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 2px solid black;
+    width: 80vw;
+    background-color: aquamarine;
+    margin: 23px auto;
+}
+.container{
+    border: 2px solid black;
+    width: 80vw;
+    height: 60vh;
+    background-color: aquamarine;
+    margin: auto;
+    font-size: 20px;
+}
+p.container{
+    font-size: 2em;
+}

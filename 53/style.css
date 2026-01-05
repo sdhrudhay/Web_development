@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/05e91faa-6f6d-4325-934e-5418dcc2567b/web/IN-en-20250630-TRIFECTA-perspective_159086b1-425f-435b-bcd5-1ed8039cdef9_large.jpg');
+    height: 100vh;
+    position: relative;
+    box-shadow: 0 20px 30px 0px black inset;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(100vw 100vh);
+}
+.container .intro-background-image-opacity{
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+.background-container{
+    width: 80vw;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 135px;
+}
+.nav .netflix-image{
+    width: 150px;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+.nav .language-button img{
+    color: white;
+}
+.nav .nav-buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav .nav-buttons #language{
+    background-color: transparent;
+    color: white;
+    border: 0.1px solid rgba(255, 255, 255, 0.5);
+    padding: 9px 15px;
+    border-radius: 3.6px;
+    z-index: 1;
+    position: relative;
+    font-weight: bold;
+    font-size: 1em;
+}
+.nav .nav-buttons #signin{
+    background-color: red;
+    border: 0.1px solid rgba(255, 0, 0, 0.5);
+    color: white;
+    padding: 9px 15px;
+    border-radius: 3.6px;
+    z-index: 1;
+    position: relative;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+.header .h1, .h2, .desc{
+    color: white;
+    z-index: 1;
+    position: relative;
+    width: 40vw;
+    text-align: center;
+}
+.header .h1{
+    font-size: 3em;   
+    font-weight:bolder;
+}
+.header .h2{
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 16px 0;
+}
+.header .desc{
+    margin: 27px 0;
+}
+.header .email-getstarted{
+    display: flex;
+    gap: 10px
+}
+.header #email{
+    background-color: transparent;
+    border: 0.1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    border-radius: 3.6px;
+    z-index: 1;
+    position: relative;
+    width: 330px;
+    padding: 18px 15px;
+    font-weight: bold;
+    font-size: 1em;
+}
+.header #getstarted{
+    background-color: red;
+    border: 0.1px solid rgba(255, 0, 0, 0.5);
+    color: white;
+    border-radius: 3.6px;
+    z-index: 1;
+    position: relative;
+    width: 180px;
+    padding: 18px 15px;
+    font-weight: bold;
+    font-size: 1em;
+}
+.divider{
+    height: 37.5px;
+    align-items: center;
+    border: solid .25rem transparent;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    background-clip: padding-box;
+}
+.trending-now{
+    margin-bottom: 60px;
+}
+.trending-now #trending-header{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+.trending-now .cards
+{
+    display: flex;
+    flex-direction: row;
+    width: 76vw;
+    margin: auto; 
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.card{
+    position: relative;
+    margin: 0 22.5px;
+    display: flex;
+}
+.card span{
+    position: relative;
+    z-index: 1;
+    font-size: 6em;
+    color: white;
+    bottom: -160px;
+    left: -220px;
+}
+.morereason #morereason-header{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+.morereason .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 230px;
+    gap: 15px;
+}
+.morereason .cards .card{
+    background-color: #1F1629;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    margin: 0px;
+    padding: 15px 15px;
+}
+.morereason .cards .card .card-header{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.morereason .cards .card .card-desc{
+    color: rgba(255, 255, 255, 0.644);
+    font-size: 17px;
+}
+.morereason{
+    margin-bottom: 60px;
+}
+@media screen and (max-width:1280px){
+    .morereason .cards{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 230px);
+    }
+}
+@media screen and (max-width:960px){
+    .morereason .cards{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+.frequently .frequently-header{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.frequently .frecards{
+    display: grid;
+    grid-template-rows: repeat(6, 80px);
+    gap: 10px;
+}
+.frequently .frecards .frecard:hover{
+    background-color: #414141;
+}
+.frequently .frecards .frecard {
+    background-color: #343434;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.frequently .frecards .frecard .freqcarddesc{
+    color: white;
+    font-size: 1.5em;
+}
+.frequently{
+    margin-bottom: 60px;
+}
+.questions{
+    color: #B3B3A8;
+    font-size: 1.2em;
+    margin-bottom: 60px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 10px);
+    gap: 15px;
+    margin-bottom: 60px;
+}
+.footer a{
+    color:#9CB3B3;
+}
+.netflixindia{
+    color: #B3B3A8;
+    margin-bottom: 60px;
+}
+@media screen and (max-width:1280px){
+    .footer {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 10px);
+    }
+}
+@media screen and (max-width:960px){
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 10px);
+    }
+}
+@media screen and (max-width:600px){
+    .footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 10px);
+    }
+}

@@ -1,0 +1,68 @@
+<<<<<<< HEAD
+.container{
+    background-color: red;
+    height: 80vh;
+    width: 30vw;
+}
+.box{
+    width: 34px;
+    height: 45px;
+    background-color: aqua;
+    animation: anim1 3s ease-out 1s forwards,anim2 3s ease-out 1s;
+}
+@keyframes anim1{
+    from{
+        
+    }
+    to{
+        transform: translateX(100px);
+    }
+}
+@keyframes anim2{
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+=======
+.container{
+    background-color: red;
+    height: 80vh;
+    width: 30vw;
+}
+.box{
+    width: 34px;
+    height: 45px;
+    background-color: aqua;
+    animation: anim1 3s ease-out 1s forwards,anim2 3s ease-out 1s;
+}
+@keyframes anim1{
+    from{
+        
+    }
+    to{
+        transform: translateX(100px);
+    }
+}
+@keyframes anim2{
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+>>>>>>> f89709e45460270f3ab3979d9b20d11fa75e1b49
+}

@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    border: 2px solid blue;
+    display: grid;
+    margin: 34px;
+    padding: 45px;
+    width: 200px
+}
+span{
+    border: 2px solid red;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="nav">
+        <div id="nav-left">
+            <img id="spotify-logo" src="assests/logo.svg" alt="Spotify">
+            <button id="home-button" class="bg-lb-br-rounded">
+                <img id="home-logo" src="assests/home.svg" alt="Home">
+            </button>
+            <div id="search-bar">
+                <button id="search-button">
+                    <img id="search-logo" src="assests/search.svg" alt="">
+                </button>
+                <input id="search-box" type="text" placeholder="What do you want to play?">
+                <button id="browse-button">
+                    <img id="browse-logo" src="assests/browse.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div id="nav-right">
+            <a id="premium-link" href="https://www.spotify.com/in-en/premium/"><span>Premium</span></a>
+            <a id="support-link" href="https://support.spotify.com/in-en/"><span>Support</span></a>
+            <a id="download-link" href="https://www.spotify.com/in-en/download/windows/"><span>Download</span></a>
+            <div id="divider"></div>
+            <a id="install-app-link" href="https://open.spotify.com/download">
+                <span>Install App</span>
+                <img id="download-logo" src="assests/download.svg" alt="">
+            </a>
+            <div id="sign-log">
+                <button id="sign-up-button">
+                    Sign up
+                </button>
+                <button id="log-in-button">
+                    Log in
+                </button>
+            </div>
+            <button id="menu-button">
+                <img src="assests/menu.svg" alt="menu" id="menu-logo">
+            </button>
+            <div id="side-bar">
+                <ul id="list-items-side-bar"></ul>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div id="left">
+            <button id="leftbar-button">
+                <img src="assests/arrow-left-bold.svg" alt="" id="arrow-left">
+                <span id="leftbar-button-text">View Main</span>
+            </button>
+            <div id="leftcontainer">
+                <h4 id="library-title">Your Library</h4>
+            </div>
+        </div>
+        <div id="main">
+            <button id="main-button">
+                <span id="main-button-text">View Library</span>
+                <img src="assests/arrow-right-bold.svg" alt="" id="arrow-right">
+            </button>
+            <div id="maincontainer">
+                <h2 id="trending-title">Trending songs</h2>
+                <div id="trending-container">
+                    <button class="scroll-btn left" id="trending-left-arrow"><img src="assests/arrow-left-bold.svg" alt="" class="arrow-scroll"></button>
+                    <div class="cards" id="trending-cards">
+                        <div class="card">
+                            <div class="song-image">
+                                <img src="images/trending1.jpeg" alt="">
+                                <button class="play-button"><img src="assests/play.svg" alt="" class="play-logo"></button>
+                            </div>
+                            <h4 class="title">Barota</h4>
+                            <p class="description">Sidhu Moose Wala,<br>The Kidd</p>
+                        </div>
+                        <div class="card">
+                            <div class="song-image">
+                                <img src="images/trending2.jpeg" alt="">
+                                <button class="play-button"><img src="assests/play.svg" alt="" class="play-logo"></button>
+                            </div>
+                            <h4 class="title">Barota</h4>
+                            <p class="description">Sidhu Moose Wala,<br>The Kidd</p>
+                        </div>
+                        <div class="card">
+                            <div class="song-image">
+                                <img src="images/trending3.jpeg" alt="">
+                                <button class="play-button"><img src="assests/play.svg" alt="" class="play-logo"></button>
+                            </div>
+                            <h4 class="title">Barota</h4>
+                            <p class="description">Sidhu Moose Wala,<br>The Kidd</p>
+                        </div>
+                        <div class="card">
+                            <div class="song-image">
+                                <img src="images/trending4.jpeg" alt="">
+                                <button class="play-button"><img src="assests/play.svg" alt="" class="play-logo"></button>
+                            </div>
+                            <h4 class="title">Barota</h4>
+                            <p class="description">Sidhu Moose Wala,<br>The Kidd</p>
+                        </div>
+                        <div class="card">
+                            <div class="song-image">
+                                <img src="images/trending5.jpeg" alt="">
+                                <button class="play-button"><img src="assests/play.svg" alt="" class="play-logo"></button>
+                            </div>
+                            <h4 class="title">Barota</h4>
+                            <p class="description">Sidhu Moose Wala,<br>The Kidd</p>
+                        </div>
+                        <div class="card">
+                            <div class="song-image">
+                                <img src="images/trending1.jpeg" alt="">
+                                <button class="play-button"><img src="assests/play.svg" alt="" class="play-logo"></button>
+                            </div>
+                            <h4 class="title">Barota</h4>
+                            <p class="description">Sidhu Moose Wala,<br>The Kidd</p>
+                        </div>
+                        <div class="card">
+                            <div class="song-image">
+                                <img src="images/trending5.jpeg" alt="">
+                                <button class="play-button"><img src="assests/play.svg" alt="" class="play-logo"></button>
+                            </div>
+                            <h4 class="title">Barota</h4>
+                            <p class="description">Sidhu Moose Wala,<br>The Kidd</p>
+                        </div>
+                        <div class="card">
+                            <div class="song-image">
+                                <img src="images/trending3.jpeg" alt="">
+                                <button class="play-button"><img src="assests/play.svg" alt="" class="play-logo"></button>
+                            </div>
+                            <h4 class="title">Barota</h4>
+                            <p class="description">Sidhu Moose Wala,<br>The Kidd</p>
+                        </div>
+                        <div class="card">
+                            <div class="song-image">
+                                <img src="images/trending1.jpeg" alt="">
+                                <button class="play-button"><img src="assests/play.svg" alt="" class="play-logo"></button>
+                            </div>
+                            <h4 class="title">Barota</h4>
+                            <p class="description">Sidhu Moose Wala,<br>The Kidd</p>
+                        </div>
+                        <div class="card">
+                            <div class="song-image">
+                                <img src="images/trending2.jpeg" alt="">
+                                <button class="play-button"><img src="assests/play.svg" alt="" class="play-logo"></button>
+                            </div>
+                            <h4 class="title">Barota</h4>
+                            <p class="description">Sidhu Moose Wala,<br>The Kidd</p>
+                        </div>
+                        <div class="card">
+                            <div class="song-image">
+                                <img src="images/trending3.jpeg" alt="">
+                                <button class="play-button"><img src="assests/play.svg" alt="" class="play-logo"></button>
+                            </div>
+                            <h4 class="title">Barota</h4>
+                            <p class="description">Sidhu Moose Wala,<br>The Kidd</p>
+                        </div>
+                        <div class="card">
+                            <div class="song-image">
+                                <img src="images/trending4.jpeg" alt="">
+                                <button class="play-button"><img src="assests/play.svg" alt="" class="play-logo"></button>
+                            </div>
+                            <h4 class="title">Barota</h4>
+                            <p class="description">Sidhu Moose Wala,<br>The Kidd</p>
+                        </div>
+                        <div class="card">
+                            <div class="song-image">
+                                <img src="images/trending5.jpeg" alt="">
+                                <button class="play-button"><img src="assests/play.svg" alt="" class="play-logo"></button>
+                            </div>
+                            <h4 class="title">Barota</h4>
+                            <p class="description">Sidhu Moose Wala,<br>The Kidd</p>
+                        </div>
+                    </div>
+                    <button class="scroll-btn right" id="trending-right-arrow"><img src="assests/arrow-right-bold.svg" alt="" class="arrow-scroll"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

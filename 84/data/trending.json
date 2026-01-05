@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Barota",
+        "description": "Sidhu Moose Wala",
+        "image": "trending1.jpeg",
+        "song": "song1.mp3"
+    },
+    {
+        "title": "Reminder",
+        "description": "The Weekend",
+        "image": "trending2.jpeg",
+        "song": "song2.mp3"
+    },
+    {
+        "title": "Long Way to Go",
+        "description": "Ursa",
+        "image": "trending3.jpeg",
+        "song": "song3.mp3"
+    },
+    {
+        "title": "Hey Daddy!",
+        "description": "Usher",
+        "image": "trending4.jpeg",
+        "song": "song4.mp3"
+    },
+    {
+        "title": "The way I am!",
+        "description": "Taylor",
+        "image": "trending5.jpeg",
+        "song": "song5.mp3"
+    },
+    {
+        "title": "Us",
+        "description": "Enrique Igleasis",
+        "image": "trending6.jpeg",
+        "song": "song6.mp3"
+    },
+    {
+        "title": "She dont believe",
+        "description": "Shelzy",
+        "image": "trending7.jpeg",
+        "song": "song7.mp3"
+    },
+    {
+        "title": "Favourite author",
+        "description": "Papparazzi",
+        "image": "trending8.jpeg",
+        "song": "song8.mp3"
+    }
+]

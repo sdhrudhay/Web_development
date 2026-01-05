@@ -1,0 +1,18 @@
+.yellow{
+    color: yellow;
+}
+.cred{
+    color: red;
+}
+.cpurple{
+    color: purple;
+}
+h1{
+    color: aqua;
+}
+[data-x=abc]{
+    color: red;
+}
+a.anchor[href]:hover{
+    color: red;
+}

@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+.container{
+    border: 2px solid purple;
+    width: 100vw;
+    height: 80vh;
+}
+.box{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+    /*transform: rotate(90deg);*/
+    /*transform: rotateX(40deg);*/
+    /*transform: rotateZ(90deg);*/
+    /* transform: scale(1.6); */
+    transform: translateX(34px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+=======
+.container{
+    border: 2px solid purple;
+    width: 100vw;
+    height: 80vh;
+}
+.box{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+    /*transform: rotate(90deg);*/
+    /*transform: rotateX(40deg);*/
+    /*transform: rotateZ(90deg);*/
+    /* transform: scale(1.6); */
+    transform: translateX(34px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+>>>>>>> f89709e45460270f3ab3979d9b20d11fa75e1b49
+}

@@ -1,0 +1,32 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    position: relative;
+}
+.box{
+    width: 10vw;
+    height: 10vw;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 10vw;
+    animation: x-axis 8s linear 1s 2 alternate,
+                y-axis 1s ease-out 1s 16 alternate;
+}
+@keyframes x-axis {
+    from{
+
+    }
+    to{
+        transform: translateX(90vw);
+    }
+}
+@keyframes y-axis {
+    from{
+    }
+    to{
+        bottom: 50%;
+    }
+}

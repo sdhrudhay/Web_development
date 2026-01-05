@@ -1,0 +1,30 @@
+:root {
+    --color: red;
+    --orien: row;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 400px) {
+    :root {
+        --color: blue;
+        --orien: column;
+    }
+}
+
+nav {
+    background-color: var(--color);
+}
+
+ul {
+    display: flex;
+    flex-direction: var(--orien);
+}
+
+li {
+    list-style: none;
+    padding: 0.5vh 2.5vw;
+}

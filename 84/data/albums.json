@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Aashique 2",
+        "description": "Mithoon, ANkit Tiwari",
+        "image": "album1.jpeg",
+        "album": "album1"
+    },
+    {
+        "title": "Yeh Jawani Yeh Dewani",
+        "description": "Pritam",
+        "image": "album2.jpeg",
+        "album": "album2"
+    },
+    {
+        "title": "Sanam teri kasam",
+        "description": "Himesh reshammiya",
+        "image": "album3.jpeg",
+        "album": "album3"
+    },
+    {
+        "title": "Finidng her",
+        "description": "Kushagra, Bharath",
+        "image": "album4.jpeg",
+        "album": "album4"
+    },
+    {
+        "title": "Young G.O.A.T",
+        "description": "Cheema Y",
+        "image": "album5.jpeg",
+        "album": "album5"
+    },
+    {
+        "title": "Raanjhan",
+        "description": "Sachet-Parampara",
+        "image": "album6.jpeg",
+        "album": "album6"
+    }
+]
