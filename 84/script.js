@@ -15,9 +15,11 @@ function handleSearchBoxAndBrowseOnClick(triggerElement) {
 function handleSideBarOnClick(triggerElement) {
     if (getComputedStyle(triggerElement).display == 'none') {
         triggerElement.style.display = 'block';
+        menuLogo.src = "assests/close.svg";
     }
     else {
         triggerElement.style.display = 'none';
+        menuLogo.src = "assests/menu.svg";
     }
 }
 function handleSearchBoxAndBrowseOnResize(triggerElement) {
@@ -67,6 +69,21 @@ function handleLinkMove(e) {
             liDownloadLink.remove();
         }
     }
+}
+function handleSearchResults(){
+    searchBox.addEventListener('input', ()=>{
+        const query = searchBox.value.toLowerCase();
+        const allAlbums = document.querySelectorAll(".card");
+        allAlbums.forEach(item => {
+        const text = item.querySelector(".title").textContent.toLowerCase();
+        if(text && text.includes(query)){
+            item.style.display = "flex";
+        }
+        else{
+            item.style.display = "none";
+        }
+  });
+    });
 }
 function handleInstallAppMove(e) {
     if (e.matches) {
@@ -579,6 +596,7 @@ const sideBarContainer = document.getElementById("side-bar");
 const container = document.getElementById("container");
 const mainContainer = document.getElementById("maincontainer");
 const menuButton = document.getElementById("menu-button");
+const menuLogo = document.getElementById("menu-logo");
 const leftArrowButton = document.getElementById("leftbar-button");
 const rightArrowButton = document.getElementById("main-button");
 const leftBar = document.getElementById("left");
@@ -674,6 +692,7 @@ handleHomeButtonMove(mq591);
 handleHomeSignAndLogMove(mq512);
 handleSearchBoxAndBrowseOnResize(searchBox);
 handleLeftAndMainOnResize();
+handleSearchResults();
 clickSearchBar(searchButton, searchBox);
 clickMenuButton(menuButton, sideBarContainer);
 clickArrowButton();
